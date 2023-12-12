@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
-import { Section } from "./components/Section.tsx";
+import { LandingPage } from "./pages/LandingPage.tsx";
 
 function App() {
   // should look like
@@ -10,10 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          index
-          element={<Section mainColor="#9BB8CD" secondaryColor="white" />}
-        ></Route>
+        <Route index element={<LandingPage />}></Route>
       </Routes>
     </Router>
   );
