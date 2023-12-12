@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-33 {
+  height: 33%;
+}
+
+.h-32 {
+  height: 32%;
+}
+.hero-profile-img {
+  width: clamp(200px, 30vh, 300px);
+  height: clamp(200px, 30vh, 300px);
+  filter: drop-shadow(15px 15px rgba(0, 0, 0, 0.8));
+}
+
+.hero-header-text {
+  font-size: 7rem;
+}
+
+.hero-body-text {
+  font-size: 1.4rem;
+}
+
+.hero-text {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.hero-computer-icons {
+  height: 75%;
+  padding: 0%;
+}

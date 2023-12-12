@@ -1,6 +1,8 @@
 import React from "react";
-import { Section } from "../components/Section.tsx";
 import { useRef, useEffect } from "react";
+
+import { Section } from "../components/Section.tsx";
+import { Hero } from "./Hero.tsx";
 export const LandingPage = () => {
   const refArr = [
     useRef<HTMLDivElement>(null),
@@ -45,14 +47,26 @@ export const LandingPage = () => {
   return (
     <>
       <div ref={refArr[0]} id="landing">
-        <Section mainColor="#9BB8CD" secondaryColor="white" />
+        <Section
+          mainColor="#9BB8CD"
+          secondaryColor="white"
+          mainElement={<Hero />}
+        />
       </div>
 
       <div ref={refArr[1]} id="test">
-        <Section mainColor="white" secondaryColor="black" />
+        <Section
+          mainColor="white"
+          secondaryColor="black"
+          mainElement={<div></div>}
+        />
       </div>
       <div ref={refArr[2]} id="t">
-        <Section mainColor="white" secondaryColor="black" />
+        <Section
+          mainColor="white"
+          secondaryColor="black"
+          mainElement={<div></div>}
+        />
       </div>
     </>
   );
