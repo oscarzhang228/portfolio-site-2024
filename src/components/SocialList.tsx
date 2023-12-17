@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 export const SocialList: React.FC = () => {
   return (
-    <div className="d-flex align-items-center p-2 gap-1">
+    <div className="d-flex align-items-center p-2 gap-1 h-100">
       <a
         href="https://www.linkedin.com/in/oscarzhang228"
         target="_blank"

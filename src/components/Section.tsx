@@ -1,6 +1,5 @@
 import React from "react";
 import { SocialList } from "./SocialList.tsx";
-import { NavigationCircles } from "./NavigationCircles.tsx";
 
 export const Section: React.FC<{
   mainColor: string;
@@ -45,9 +44,8 @@ const Subsection: React.FC<{
 
 const BottomSection: React.FC = () => {
   return (
-    <>
+    <div className="section-bottom d-flex">
       <SocialList />
-      {/* <NavigationCircles /> */}
-    </>
+    </div>
   );
 };

@@ -1,5 +1,5 @@
 .section {
-  height: 100vh;
+  height: clamp(600px, 100vh, 100vh);
 
   .sub {
     width: auto;
