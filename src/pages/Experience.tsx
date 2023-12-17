@@ -8,15 +8,17 @@ export const Experience = () => {
       id="experience"
     >
       <h1 className="text-center experience-heading-text">
-        I've worked with/for
+        I've worked with/for:
       </h1>
       <WorkBlocks
         company="Fyve By"
+        position="Software Engineer Intern"
         description="An aviation startup working to combat ground-damages."
         projects="Skyview Manager Portal, Skyview Unity App, Internal CRM"
       />
       <WorkBlocks
         company="GT AASA"
+        position="Software Engineer"
         description="An ethnic club for AAPI students at Georgia Tech."
         projects="AASA Website"
       />
