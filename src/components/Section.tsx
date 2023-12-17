@@ -31,7 +31,8 @@ const Subsection: React.FC<{
   border: boolean;
 }> = ({ color, height, element, border }) => {
   const variableHeightAndColor = {
-    height: height + "%",
+    minHeight: height + "%",
+    height: "auto",
     backgroundColor: color,
     borderBottom: border ? "1px solid black" : "none",
   };

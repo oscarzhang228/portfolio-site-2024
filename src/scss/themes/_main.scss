@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as *;
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.h-10 {
+  height: 10%;
+}
+
+.h-33 {
+  height: 33%;
+}
+
+.h-32 {
+  height: 32%;
+}
+
+a {
+  color: black !important;
+  font-family: $header-font;
+}

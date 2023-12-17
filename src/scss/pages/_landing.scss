@@ -1,26 +1,4 @@
-html {
-  overflow: scroll;
-  overflow-x: hidden;
-}
-::-webkit-scrollbar {
-  width: 0; /* Remove scrollbar space */
-  background: transparent; /* Optional: just make scrollbar invisible */
-}
-
-.body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-.h-10 {
-  height: 10%;
-}
-
-.h-33 {
-  height: 33%;
-}
-
-.h-32 {
-  height: 32%;
-}
+@use "../abstracts/variables" as *;
 .hero-profile-img {
   width: clamp(200px, 30vh, 300px);
   height: clamp(200px, 30vh, 300px);
@@ -38,12 +16,13 @@ html {
 .hero-text {
   padding: 0;
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: $header-font;
   text-align: center;
 }
 
 .hero-computer-icons {
   height: 75%;
+  max-width: 100vw;
   padding: 0%;
 }
 

@@ -3,9 +3,6 @@
     height: clamp(1100px, 90vh, 100vh);
     width: 100vw;
   }
-  .section-bottom {
-    height: 10vh !important;
-  }
 }
 
 @media screen and (max-width: 500px) {

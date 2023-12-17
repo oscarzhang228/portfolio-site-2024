@@ -34,8 +34,8 @@ export const Navigation = () => {
         <Navbar.Collapse id="responsive-navbar-nav" role={"collapse"}>
           <Nav className="me-auto" />
           <Nav>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="nav-link"
               onClick={() =>
                 setTimeout(() => {
@@ -44,12 +44,21 @@ export const Navigation = () => {
               }
             >
               Home
+            </Link>
+            <a
+              href="#about"
+              className="nav-link"
+              onClick={() =>
+                setTimeout(() => {
+                  setExpanded(false);
+                }, 150)
+              }
+            >
+              About
             </a>
             <a
-              href="https://drive.google.com/file/d/1QOxLHyUkC7--ewj18zd7-1WAB24RgYRl/view?usp=sharing"
+              href="#experience"
               className="nav-link"
-              target="_blank"
-              rel="noreferrer"
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);
