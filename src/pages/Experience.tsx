@@ -7,9 +7,12 @@ export const Experience = () => {
       className="d-flex flex-column justify-content-around h-100"
       id="experience"
     >
-      <h1 className="text-center experience-heading-text">
-        I've worked with/for:
-      </h1>
+      <WorkBlocks
+        company="Epilepsy Foundation of Georgia"
+        position="Software Engineer - Volunteer"
+        description="Georgia's biggest resource for those suffering from epilepsy."
+        projects="Foundation Website Overhaul"
+      />
       <WorkBlocks
         company="Fyve By"
         position="Software Engineer Intern"
@@ -25,7 +28,7 @@ export const Experience = () => {
       <p className="text-center">
         Check out my full{" "}
         <a
-          href="https://drive.google.com/file/d/1QOxLHyUkC7--ewj18zd7-1WAB24RgYRl/view?usp=sharing"
+          href="https://drive.google.com/file/d/1oh-SenQzfQggCx2H306BzVdGYuu7ZDfN/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
