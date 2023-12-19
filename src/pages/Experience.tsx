@@ -8,17 +8,18 @@ export const Experience = () => {
       id="experience"
     >
       <WorkBlocks
-        company="Epilepsy Foundation of Georgia"
-        position="Software Engineer - Volunteer"
-        description="Georgia's biggest resource for those suffering from epilepsy."
-        projects="Foundation Website Overhaul"
-      />
-      <WorkBlocks
         company="Fyve By"
         position="Software Engineer Intern"
         description="An aviation startup working to combat ground-damages."
         projects="Skyview Manager Portal, Skyview Unity App, Internal CRM"
       />
+      <WorkBlocks
+        company="Epilepsy Foundation of Georgia"
+        position="Software Engineer - Volunteer"
+        description="Georgia's biggest resource for those suffering from epilepsy."
+        projects="Foundation Website Overhaul"
+      />
+
       <WorkBlocks
         company="GT AASA"
         position="Software Engineer"
