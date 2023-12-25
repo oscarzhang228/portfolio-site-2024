@@ -4,7 +4,7 @@ import { WorkBlocks } from "../components/WorkBlocks.tsx";
 export const Experience = () => {
   return (
     <div
-      className="d-flex flex-column justify-content-around h-100 experience-main pt-5"
+      className="d-flex flex-column justify-content-around h-100 experience-main"
       id="experience"
     >
       <WorkBlocks
