@@ -1,7 +1,7 @@
 @use "../abstracts/variables" as *;
 html {
-  overflow: scroll;
   overflow-x: hidden;
+  overflow: auto;
 }
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */

@@ -6,11 +6,11 @@ export const AboutExperience = () => {
   return (
     <div className="container-fluid">
       <div className="row h-100">
-        <div className="col-md-6 col-sm-12 border-end border-bottom">
-          <About />
-        </div>
         <div className="col-md-6 col-sm-12">
           <Experience />
+        </div>
+        <div className="col-md-6 col-sm-12 border-end border-bottom">
+          <About />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ export const Hero = () => {
   const profilePic = require("../images/profile-pic.png");
   const computerPic = require("../images/computer-icons.png");
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="hero">
       <div className="row h-10">
         <Navigation />
       </div>

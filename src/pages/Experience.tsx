@@ -4,7 +4,7 @@ import { WorkBlocks } from "../components/WorkBlocks.tsx";
 export const Experience = () => {
   return (
     <div
-      className="d-flex flex-column justify-content-around h-100"
+      className="d-flex flex-column justify-content-around h-100 experience-main pt-5"
       id="experience"
     >
       <WorkBlocks
@@ -26,7 +26,7 @@ export const Experience = () => {
         description="An ethnic club for AAPI students at Georgia Tech."
         projects="AASA Website"
       />
-      <p className="text-center">
+      <p className="p-5">
         Check out my full{" "}
         <a
           href="https://drive.google.com/file/d/1oh-SenQzfQggCx2H306BzVdGYuu7ZDfN/view?usp=sharing"

@@ -7,7 +7,7 @@ export const WorkBlocks: React.FC<{
   position: string;
 }> = ({ company, description, projects, position }) => {
   return (
-    <div className="text-center p-5">
+    <div className=" p-5">
       <h2 className="experience-heading-text">{company}</h2>
       <h4 className="experience-body-text">
         <strong>{position}</strong>
