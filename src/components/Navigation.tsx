@@ -45,20 +45,12 @@ export const Navigation = () => {
             >
               Home
             </Link>
+
             <a
-              href="#about"
+              href="https://drive.google.com/file/d/1oh-SenQzfQggCx2H306BzVdGYuu7ZDfN/view?usp=sharing"
               className="nav-link"
-              onClick={() =>
-                setTimeout(() => {
-                  setExpanded(false);
-                }, 150)
-              }
-            >
-              About
-            </a>
-            <a
-              href="#experience"
-              className="nav-link"
+              target="_blank"
+              rel="noreferrer"
               onClick={() =>
                 setTimeout(() => {
                   setExpanded(false);

@@ -1,11 +1,11 @@
 import React from "react";
-import { SocialList } from "./SocialList.tsx";
 
 export const Section: React.FC<{
   mainColor: string;
   secondaryColor: string;
   mainElement: React.ReactElement;
-}> = ({ mainColor, secondaryColor, mainElement }) => {
+  secondaryElement: React.ReactElement;
+}> = ({ mainColor, secondaryColor, mainElement, secondaryElement }) => {
   return (
     <section className="section">
       <Subsection
@@ -14,12 +14,7 @@ export const Section: React.FC<{
         element={mainElement}
         border={true}
       />
-      <Subsection
-        color={secondaryColor}
-        height="10"
-        element={<BottomSection />}
-        border={false}
-      />
+      {secondaryElement}
     </section>
   );
 };
@@ -40,13 +35,5 @@ const Subsection: React.FC<{
     <section className="section sub d-flex" style={variableHeightAndColor}>
       {element}
     </section>
-  );
-};
-
-const BottomSection: React.FC = () => {
-  return (
-    <div className="section-bottom d-flex">
-      <SocialList />
-    </div>
   );
 };
