@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import { TfiViewList } from "react-icons/tfi";
 
@@ -34,7 +34,7 @@ export const Navigation = () => {
         <Navbar.Collapse id="responsive-navbar-nav" role={"collapse"}>
           <Nav className="me-auto" />
           <Nav>
-            <Link
+            <NavLink
               to="/"
               className="nav-link"
               onClick={() =>
@@ -44,8 +44,18 @@ export const Navigation = () => {
               }
             >
               Home
-            </Link>
-
+            </NavLink>
+            <NavLink
+              to="/about"
+              className="nav-link"
+              onClick={() =>
+                setTimeout(() => {
+                  setExpanded(false);
+                }, 150)
+              }
+            >
+              About
+            </NavLink>
             <a
               href="https://drive.google.com/file/d/1oh-SenQzfQggCx2H306BzVdGYuu7ZDfN/view?usp=sharing"
               className="nav-link"

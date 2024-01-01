@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as *;
+.about-heading-text {
+  font-family: $header-font;
+  font-size: 3rem;
+}
+
+.about-body-text {
+  font-family: $body-font;
+  font-size: 1.15rem;
+}
